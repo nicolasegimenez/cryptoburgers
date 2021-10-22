@@ -1,20 +1,12 @@
-body, html {
-    height: 100%;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("https://ucarecdn.com/270622e8-3009-4eb2-b2f1-a1f392ac57ea/CryptoBurgersBackground37x.png");
-    
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .col {
+body,
+html {
+  height: 100%;
+  background-image: url("https://ucarecdn.com/270622e8-3009-4eb2-b2f1-a1f392ac57ea/CryptoBurgersBackground37x.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
 
-    border: 1px;
-  }
+.down {
+  position: absolute;
+  bottom: 0;
+}
